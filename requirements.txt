@@ -1,0 +1,14 @@
+# Core
+torch>=1.13
+transformers>=4.30
+
+# Utilities
+tqdm>=4.60
+pandas>=1.5
+
+# Metrics
+nltk>=3.8
+rouge-score>=0.1.2
+
+# Tokenizers
+sentencepiece>=0.1.99
