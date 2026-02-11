@@ -1,6 +1,8 @@
-# PDG (Parameter Description Generation)
+# Parameter Description Generation
 
-PDG aims to **generate natural-language descriptions for function/method parameters** from code context.
+PDG is an empirical studty of **generate natural-language descriptions for function/method parameters** from code context.
+
+paper：The Impact of Contextual Information on Parameter Description Generation: An Empirical Study
 
 This repo includes two baselines:
 - **CodeBERT (RoBERTa) encoder + Transformer decoder** (`code/cb/`)
@@ -29,7 +31,6 @@ data/<dataset_name>/{train,valid,test}.jsonl
 ```
 
 Each line is a Python-dict-like string and read with `eval(...)` in the training scripts.
----
 
 ## Installation
 
